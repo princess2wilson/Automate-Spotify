@@ -82,3 +82,5 @@ class YoutubeClient(object):
 
         artist = video['artist']
         track = video['track']
+
+        return artist,track

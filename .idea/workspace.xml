@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed05dc7-8b3a-483c-80b8-8d9cc4b9a10b" name="Default Changelist" comment="Created all methods and set up __init__" />
+    <list default="true" id="bed05dc7-8b3a-483c-80b8-8d9cc4b9a10b" name="Default Changelist" comment="created spotifyclient methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/spotify_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtube_client.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600899163667</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created spotifyclient methods">
+      <created>1600909019473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600909019473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created spotifyclient methods">
+      <created>1600909027688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600909027688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,7 +104,8 @@
     <MESSAGE value="First (Test) Commit" />
     <MESSAGE value="Created all methods and set up __init__" />
     <MESSAGE value="get videos from playlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="get videos from playlist" />
+    <MESSAGE value="created spotifyclient methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="created spotifyclient methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600873826588">
@@ -95,10 +116,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600907319798" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600899175409">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600909053564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600899175409" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600909053564" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600874982175">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
