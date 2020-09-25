@@ -26,7 +26,7 @@ class SpotifyClient(object):
         results = response_json['tracks']['items']
 
         if results:
-            # assumes the first track is the one we want
+            # assumes the first track is the one we want and return song id
             return results[0]['id']
         else:
             raise Exception(f"No song found for {artist}={track}")
