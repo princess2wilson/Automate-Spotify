@@ -10,10 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed05dc7-8b3a-483c-80b8-8d9cc4b9a10b" name="Default Changelist" comment="putting everythin together in main">
+    <list default="true" id="bed05dc7-8b3a-483c-80b8-8d9cc4b9a10b" name="Default Changelist" comment="cleaning up main file">
+      <change beforePath="$PROJECT_DIR$/.idea/automatespotify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automatespotify.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/spotify_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youtube_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtube_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="automatespotify" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600968571570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cleaning up main file">
+      <created>1600993701085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600993701085</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +148,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First (Test) Commit" />
@@ -121,20 +157,47 @@
     <MESSAGE value="created spotifyclient methods" />
     <MESSAGE value="Finsih off spotify_client.py" />
     <MESSAGE value="putting everythin together in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="putting everythin together in main" />
+    <MESSAGE value="cleaning up main file" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning up main file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600873826588">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600873826588" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1600907319798">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="0" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601125711844">
+      <screen x="0" y="0" width="1403" height="900" />
     </state>
+    <state x="0" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1403.900@0.0.1403.900" timestamp="1601125711844" />
+    <state width="1389" height="238" key="GridCell.Tab.0.bottom" timestamp="1601003430627">
+      <screen x="0" y="0" width="1401" height="900" />
+    </state>
+    <state width="1389" height="238" key="GridCell.Tab.0.bottom/0.0.1400.900@0.0.1400.900" timestamp="1601002923808" />
+    <state width="1389" height="238" key="GridCell.Tab.0.bottom/0.0.1401.900@0.0.1401.900" timestamp="1601003430627" />
+    <state width="1389" height="238" key="GridCell.Tab.0.center" timestamp="1601003430626">
+      <screen x="0" y="0" width="1401" height="900" />
+    </state>
+    <state width="1389" height="238" key="GridCell.Tab.0.center/0.0.1400.900@0.0.1400.900" timestamp="1601002923805" />
+    <state width="1389" height="238" key="GridCell.Tab.0.center/0.0.1401.900@0.0.1401.900" timestamp="1601003430626" />
+    <state width="1389" height="238" key="GridCell.Tab.0.left" timestamp="1601003430625">
+      <screen x="0" y="0" width="1401" height="900" />
+    </state>
+    <state width="1389" height="238" key="GridCell.Tab.0.left/0.0.1400.900@0.0.1400.900" timestamp="1601002923798" />
+    <state width="1389" height="238" key="GridCell.Tab.0.left/0.0.1401.900@0.0.1401.900" timestamp="1601003430625" />
+    <state width="1389" height="238" key="GridCell.Tab.0.right" timestamp="1601003430626">
+      <screen x="0" y="0" width="1401" height="900" />
+    </state>
+    <state width="1389" height="238" key="GridCell.Tab.0.right/0.0.1400.900@0.0.1400.900" timestamp="1601002923806" />
+    <state width="1389" height="238" key="GridCell.Tab.0.right/0.0.1401.900@0.0.1401.900" timestamp="1601003430626" />
+    <state x="215" y="89" key="SettingsEditor" timestamp="1601136034488">
+      <screen x="0" y="0" width="1403" height="900" />
+    </state>
+    <state x="215" y="89" key="SettingsEditor/0.0.1403.900@0.0.1403.900" timestamp="1601136034488" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600907319798" />
-    <state x="313" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600968594842">
-      <screen x="0" y="0" width="1410" height="900" />
+    <state x="311" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600993720688">
+      <screen x="0" y="0" width="1400" height="900" />
     </state>
+    <state x="311" y="190" key="Vcs.Push.Dialog.v2/0.0.1400.900@0.0.1400.900" timestamp="1600993720688" />
     <state x="313" y="190" key="Vcs.Push.Dialog.v2/0.0.1410.900@0.0.1410.900" timestamp="1600968594842" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600909053564" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600874982175">

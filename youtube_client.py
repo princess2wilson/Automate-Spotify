@@ -2,6 +2,8 @@ import os
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import youtube_dl
+import youtube_dl.utils
+
 
 
 class Playlist(object):
@@ -18,6 +20,7 @@ class Song(object):
 
 class YoutubeClient(object):
     def __init__(self, credentials_location):
+        youtube_dl.utils.std_headers['User-Agent'] = 'my-user-agent'
         scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
         # Disable OAuthlib's HTTPS verification when running locally.
@@ -55,23 +58,25 @@ class YoutubeClient(object):
         songs = []
         request = self.youtube_client.playlistItems().list(
             # need to identify the id and the autor, title  etc
-            PlaylistId=playlist_id,
-            part="id,snippet"
+            playlistId=playlist_id,
+            part="id,snippet",
+            maxResults = 50
 
         )
         response = request.execute()
         for item in response['items']:
             video_id = item['snippet']['resourceId']['videoId']
-            artist, track = self.get_artist_and_track(video_id)
+            artist,track = self.get_artist_and_track(video_id)
             if artist and track:
                 songs.append(Song(artist, track))
         return songs
 
     # get artist and song from video
-    def get_artist_and_track(self, video_id):
+    def get_artist_and_track(self,video_id):
 
         # takes in a video url and extracts all the info about it
         youtube_url = f"https://www.youtube.com/watch?v={video_id}"
+
 
         # we dont want all the logs and unnecessay stuff and we dont want the library to download the video, so...
         video = youtube_dl.YoutubeDL({'quiet': True}).extract_info(
@@ -83,4 +88,4 @@ class YoutubeClient(object):
         artist = video['artist']
         track = video['track']
 
-        return artist,track
+        return artist, track
