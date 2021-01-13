@@ -1,5 +1,5 @@
 # Automate-Spotify
-**Need to have own credentials**
+** Need to have own credentials. **
 Have you ever been on youtube and found a song randomly that you like and added it to your playlist? Then had to make the constant effort to open your spotify app and search for the song manually AND THEN adding the song to your spotify playlist?
 Have you ever thought, what if i had a program that did this for me?
 
